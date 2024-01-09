@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping-tags</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+  .degrade {
+      background: linear-gradient(to right, #a1ccf0, #c2ecf1c4);
+  }
+  .degrad {
+      background: linear-gradient(to right, #706f6f63, #b8b7b763);
+  }
+  .sublinhado {
+ text-decoration: underline;
+  }
+
+ body {
+    font-family: 'Handlee', cursive;;
+    background-color: rgb(234, 236, 238);
+ }
+ nav {
+    background-color: #8b8a8a63;
+    padding: 1.5px;
+    box-shadow: 5px 3px 7px 1px #0000005e;
+    border-radius: 20px;
+ }
+ nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #000701b0;
+ }
+
+ h1 {
+    text-align: center;
+    padding: 08px;
+    background: linear-gradient(to right, #83f58db0);
+    border-radius: 20px;
+    box-shadow: 5px 3px 7px 1px #0000005e;
+ }
+
+ aside > p { 
+    box-shadow: 5px 3px 7px 1px #0000005e;;
+    border-radius: 20px;
+    background-color: #b3d6f38f;
+
+
+
+ }
+aside {
+    text-align: center;
+    background-color: #8080805b;
+ }
+ article > h2 {
+    text-align: left
+ }
+</style>
+</head>
+<body>
+    <header>
+        <h1 class="degrade">My Website</h1>
+        <nav class="degrad">
+            <a href="#">site01</a>
+            <a href="#">site02</a>
+            <a href="#">site03</a>
+            <a href="#">site04</a>
+            <a href="#">site05</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>News about Brazil</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis maxime hic nisi, beatae dolor explicabo autem? Quidem corporis neque earum iusto vitae illum temporibus nam fuga sunt, aliquid excepturi. Est.
+                </p>
+                <aside class="special">
+                <p class="degrade"> Written by <strong class="sublinhado">Zé da Manga</strong></p>
+                
+            </aside>
+        </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvendo solo</p>
+    </footer>
+</body>
+</html>

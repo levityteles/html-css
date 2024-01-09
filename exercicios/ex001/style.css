@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: black;
+    justify-content: center;
+
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.bloco-1 {
+background-color: blue;
+width: 40px;
+height: 40px;
+border-radius: 10px;
+text-align: center;
+flex-grow: 1;
+}
+
+.bloco-2 {
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    flex-basis: 0;
+
+}
+
+.bloco-3 {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+text-align: center;
+flex-grow: 1;
+
+}

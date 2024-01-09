@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasse</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: #f59a9a;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #fa0101;
+        }
+
+        a:hover {
+         text-decoration: underline;
+         color: #000000a2;
+            
+        }
+        .special::before {
+            content: '⇨ ';
+        }
+        .special::after {
+            content: '⇦';
+        }
+    </style>
+</head>
+<body>
+<h1>Personalizando links</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus eveniet saepe expedita voluptas voluptate natus iste</p>
+<hr>
+<ul>
+    <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" class="special" target="_blank">Github</a></li>
+    <li><a href="https://t.me/cursoemvideo" target="_blank">Telegram</a></li>
+    <li><a href="https://www.cursoemvideo.com" target="_blank">Site</a></li>
+</ul>
+</body>
+</html>
