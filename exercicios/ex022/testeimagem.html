@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página com Imagem à Direita</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    body, html {
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1280px;
+    padding: 5rem 2rem;
+}
+
+.texto {
+
+  padding: 40px; /* Ajuste a margem conforme necessário */
+  text-align: center;
+}
+
+.imagem {
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="texto">
+      <h1>Seu Texto Aqui</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel reprehenderit adipisci beatae expedita deserunt ex temporibus, ducimus quasi fugit ullam quaerat rem tempore maxime consequatur doloremque natus quo odit consequuntur!</p>
+    </div>
+    <div class="imagem">
+      <img src="images/fotooficial.png" alt="Descrição da Imagem">
+    </div>
+  </div>
+</body>
+</html>

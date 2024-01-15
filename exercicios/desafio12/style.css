@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+:root{  
+    --fonte-principal: 'Sriracha', cursive;
+    --fonte-secundaria: font-family: 'Passion One', Cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* CONFIG GERAIS ^^ */
+
+.container{ 
+    background-color: black;
+    height: 260px;
+    text-align: center;
+}
+
+
+
+header > h1{
+font-family: Passion One;
+color: white;
+font-size: 136px;
+font-weight: bold;
+margin-bottom: 10px;
+padding-top: 60px;
+}
+
+header p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+
+header a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.363);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header a:hover{
+    text-decoration: underline;
+    transform: scale(1.06);
+    transition: .5s;
+    color: white;
+}
+
+section p{
+    font-family: 'Sriracha';
+    font-size: 50px;
+    text-align: left;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+section { 
+    line-height: 2em;
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+ .imagem{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    padding: 50px 0 50px 30px;
+}
+
+section .fundo01{
+    width: 600px;
+    color: #000000;
+    font-weight: 95px;
+    padding: 30px;
+}
+
+section .fundinho{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 600px;
+    text-shadow: 2px 2px 2px #00000088;
+}
+
+.fundao{
+    padding: 30px;
+}
+
+.imagem2{
+ background-image: url('imagens/background002.jpg');
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ display: block;
+ padding: 50px 0 50px 30px;
+}
+
+.fundaoo{
+    padding: 30px 30px 70px 30px;
+}
+
+.rodape{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.363);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    transform: scale(1.06);
+    transition: .5s;
+    color: white;
+}
+
+
+
+
+
+
