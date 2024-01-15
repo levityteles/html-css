@@ -75,18 +75,19 @@ section.imagem>p{
     color: white;
     padding: 5px;
     border-radius: 15px;
+    text-shadow: 2px 2px 0 black;
 }
 
 #img01{
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #img02{
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
