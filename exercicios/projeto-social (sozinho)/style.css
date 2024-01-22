@@ -1,0 +1,52 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    height: 100vh;
+}
+
+
+
+.iphone{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.position1{
+    position: relative;
+
+}
+
+.position2{
+    position: absolute;
+    width: 266px;
+    top: 15.6%;
+    padding-left: 1px;
+}
+
+.box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+}
+
+div img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+div a:hover{
+    transition: all 0.3s ease-in-out;
+}
+
+
+
